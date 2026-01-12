@@ -1,5 +1,4 @@
 .main{
-    height: 90rem;
     background: linear-gradient(
     180deg,
     #fde2ff 0%,
@@ -31,12 +30,10 @@
     font-family: var(--font-secondary);
     font-size: var(--font-xl);
     text-align: center;
+    padding-bottom: var(--space-md);
 }
 
 .main__text--destaque{
-    background-color: #ffde59;
-    padding: 0.1rem 0.4rem 0.1rem 0.8rem;
-    border-radius: 10rem;
     font-weight: 600;
 }
 
@@ -45,4 +42,25 @@
     border-radius: 3rem;
     box-sizing: border-box;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.50);
+}
+
+.list__wrap{
+    padding-inline: var(--space-xl);
+}
+
+.main__list{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+    padding-bottom: var(--space-xl);
+    padding-top: var(--space-lg);
+    list-style-type: disc;
+
+}
+
+.main__itens{
+    font-family: var(--font-secondary);
+    font-size: var(--font-md);
+    font-weight: 500;
+    color: var(--color-black-first);
 }

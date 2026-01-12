@@ -36,15 +36,7 @@
     --color-black-third: #666666;
 
     /* blackgrounds */
-    --color-bg: #fff;
-    --color-bg-header: #00161C;
-    --color-bg-hero: #00161C;
-    --color-bg-destaque: #DFE3F5;
-    --color-bg-planos: #00161C;
-    --color-bg-footer: #333333;
-    --color-bg-diferencial: #fff;
-    --color-bg-about: #fff;
-    --color-bg-contato: #fff;
+    --color-bg: linear-gradient(180deg, #fde2ff 0%, #e8d9ff 40% #dbeafe 100%);
 
     /* cores dos planos/borda */
     --color-plano-start: #56CCF2;

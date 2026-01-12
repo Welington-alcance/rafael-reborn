@@ -1,5 +1,5 @@
 .main{
-    height: 100vh;
+    height: 90rem;
     background: linear-gradient(
     180deg,
     #fde2ff 0%,
@@ -35,4 +35,5 @@
 .main__video{
     border: 0.5rem solid var(--color-white);
     border-radius: 3rem;
+    box-sizing: border-box;
 }

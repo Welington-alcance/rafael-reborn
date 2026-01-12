@@ -1,0 +1,9 @@
+.container{
+    margin-top: var(--space-lg);
+    padding-inline: var(--space-md);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

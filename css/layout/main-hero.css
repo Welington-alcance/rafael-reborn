@@ -24,12 +24,20 @@
     font-size: var(--font-3xl);
     font-weight: bold;
     text-align: center;
+    color: #02026f;
 }
 
 .main__text{
     font-family: var(--font-secondary);
     font-size: var(--font-xl);
     text-align: center;
+}
+
+.main__text--destaque{
+    background-color: #ffde59;
+    padding: 0.1rem 0.4rem 0.1rem 0.8rem;
+    border-radius: 10rem;
+    font-weight: 600;
 }
 
 .main__video{

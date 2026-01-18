@@ -12,17 +12,35 @@
             <video controls poster="src/tumblr-video2.png" 
                 playsinline
                 webkit-playsinline  
-                class="main__video">
+                class="main__video"
+                id="video0">
                 <source src="src/Vídeo-2.mp4" type="video/mp4">
             </video>
 
-            <a href="https://m.me/rafaelbebereborn?ref=w49387684" class="btn__video"> Clique aqui </a>
+            <a href="https://m.me/rafaelbebereborn?ref=w49387684" class="btn__video" id="btnvideo0"> Clique aqui </a>
 
             <!--<ul class="main__list">
                 <li class="main__itens">Veja as instruções para participar do sorteio</li>
                 <li class="main__itens">Video curto e fácil de entender</li>
             </ul>-->
         </div>
-    </main>    
+    </main>  
+    
+    <script>
+        const video = document.getElementById("video0");
+        const botao = document.getElementById("btnvideo0");
+
+        const segundosAntes = 10;
+
+        video.addEventListener("timeupdate",() =>{
+            if (video.duration){
+                const tempoRestante = video.duration - video.currentTime;
+
+                if (tempoRestante <= segundosAntes){
+                    botao.classList.add("btn--show");
+                }
+            }
+        } )
+    </script>
 </body>
 </html>

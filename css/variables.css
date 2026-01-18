@@ -22,36 +22,8 @@
 /*----------- CORES -----------*/
 :root{
     --color-white: #fff;
-
-    --color-primary: #B72E2E;
-
-    /* Cores de texto*/
-    --color-text-link-contato: #4F4C4C;
-    --color-text-link-email: #0084FF;
-
-
     /* Tons de preto */
     --color-black-first: #000;
-    --color-black-second: #4F4C4C;
-    --color-black-third: #666666;
-
-    /* blackgrounds */
-    --color-bg: linear-gradient(180deg, #fde2ff 0%, #e8d9ff 40% #dbeafe 100%);
-
-    /* cores dos planos/borda */
-    --color-plano-start: #56CCF2;
-    --color-plano-ultra: #B04CD9;
-    --color-plano-mega: #E33B3B;
-    --color-plano-border: #DFE3E5;
-
-    /* link-destaque */
-    --color-link-destaque: #B72E2E;
-    --color-link-contato: #0084FF;
-    
-    /* cores das bordas*/
-    --color-border-header: #103D4A;
-    --color-boder-contato: #4F4C4C;
-    --color-border-card-planos:  #DFE3E5;
 }
 
 
@@ -68,48 +40,4 @@
     --space-5xl: 9.6rem;
     --space-6xl: 11.2rem;
     --space-15xl: 25.6rem
-}
-
-/*----------- SPACING BUTTON -----------*/
-:root{
-    --space-btn-md: 33rem;
-}
-
-/*----------- SPACING CONTAINER -----------*/
-:root{
-    --container-xs: 74rem;
-    --container-sm: 96rem;
-    --container-md: 120rem;
-    --container-lg: 140rem;
-}
-
-/*----------- BORDER -----------*/
-:root{
-    --border-xs: 0.06rem; 
-    --border-sm: 0.08rem;
-    --border-md: 0.10rem;
-}
-
-/*----------- BORDER-RADIUS -----------*/
-:root{
-    --radius-none: 0;
-    --radius-xxs: 0.1rem;
-    --radius-xs: 0.2rem;  
-    --radius-sm: 0.4rem;  
-    --radius-md: 0.8rem;  
-    --radius-lg: 1.2rem;
-    --radius-xl: 1.6rem;
-    --radius-full: 9999px;
-}
-
-/*----------- MARGIN -----------*/
-:root{
-    --margin-2xs: 0.4rem;
-    --margin-xs:  0.8rem;
-    --margin-sm:  1.6rem;
-    --margin-md:  2.4rem;
-    --margin-lg:  3.2rem;
-    --margin-xl:  4.8rem;
-    --margin-2xl: 6.4rem;
-    --margin-3xl: 9.6rem;
 }
